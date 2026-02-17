@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CleanStart Email Signatures</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #06090F;
+            --card-bg: #0f141e;
+            --text-color: #FFFFFF;
+            --accent-color: #056cf2;
+            --secondary-text: #a0a0a0;
+            --glow-color: rgba(5, 108, 242, 0.3);
+        }
+        
+        body {
+            font-family: 'Manrope', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        header {
+            padding: 40px 20px;
+            text-align: center;
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+        }
+        
+        .logo {
+            height: 40px;
+            margin-bottom: 10px;
+        }
+        
+        h1 {
+            font-weight: 600;
+            font-size: 1.5rem;
+            margin-top: 10px;
+            color: var(--secondary-text);
+        }
+
+        main {
+            flex: 1;
+            padding: 40px 20px;
+            max_width: 1200px;
+            margin: 0 auto;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        
+        .card {
+            background-color: var(--card-bg);
+            border-radius: 12px;
+            padding: 24px;
+            text-decoration: none;
+            color: inherit;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(255,255,255,0.05);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: var(--accent-color);
+            box-shadow: 0 10px 30px -10px var(--glow-color);
+        }
+        
+        .name {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin: 0 0 5px 0;
+            color: var(--text-color);
+        }
+        
+        .designation {
+            font-size: 0.9rem;
+            color: var(--secondary-text);
+            margin: 0;
+        }
+        
+        .arrow {
+            opacity: 0;
+            transform: translateX(-10px);
+            transition: all 0.3s ease;
+            color: var(--accent-color);
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+        
+        .card:hover .arrow {
+            opacity: 1;
+            transform: translateX(0);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 0.8rem;
+            color: var(--secondary-text);
+            border-top: 1px solid rgba(255,255,255,0.05);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://cdn.prod.website-files.com/688cb1df5bbf5068ddce4492/688cb1df5bbf5068ddce453c_Asset%209.svg" alt="CleanStart Logo" class="logo">
+        <h1>Email Signatures Directory</h1>
+    </header>
+    
+    <main>
+        <div class="grid">
+            
+        <a href="Adrian-Lee.html" target="_blank" class="card">
+            <div class="card-content">
+                <h2 class="name">Adrian Lee</h2>
+                <p class="designation">Regional Sales Director, SouthEast Asia</p>
+            </div>
+            <div class="arrow">→</div>
+        </a>
+        
+        <a href="Anil-Dhoot.html" target="_blank" class="card">
+            <div class="card-content">
+                <h2 class="name">Anil Dhoot</h2>
+                <p class="designation">Country Manager - India & SAARC</p>
+            </div>
+            <div class="arrow">→</div>
+        </a>
+        
+        <a href="Arjun-D-J.html" target="_blank" class="card">
+            <div class="card-content">
+                <h2 class="name">Arjun D J</h2>
+                <p class="designation">Regional Sales Manager-South India</p>
+            </div>
+            <div class="arrow">→</div>
+        </a>
+        
+        <a href="Biswajit-De.html" target="_blank" class="card">
+            <div class="card-content">
+                <h2 class="name">Biswajit De</h2>
+                <p class="designation">Co-founder & CTO</p>
+            </div>
+            <div class="arrow">→</div>
+        </a>
+        
+        <a href="Dhanush-VM.html" target="_blank" class="card">
+            <div class="card-content">
+                <h2 class="name">Dhanush VM</h2>
+                <p class="designation">Solution Architect</p>
+            </div>
+            <div class="arrow">→</div>
+        </a>
+        
+        <a href="Mark-Tharakan.html" target="_blank" class="card">
+            <div class="card-content">
+                <h2 class="name">Mark Tharakan</h2>
+                <p class="designation">Regional Account Manager - South</p>
+            </div>
+            <div class="arrow">→</div>
+        </a>
+        
+        <a href="Monali-Lalwani.html" target="_blank" class="card">
+            <div class="card-content">
+                <h2 class="name">Monali Lalwani</h2>
+                <p class="designation">Account Executive – West</p>
+            </div>
+            <div class="arrow">→</div>
+        </a>
+        
+        <a href="Mrinaal-Duggal.html" target="_blank" class="card">
+            <div class="card-content">
+                <h2 class="name">Mrinaal Duggal</h2>
+                <p class="designation">Regional Account Manager-North</p>
+            </div>
+            <div class="arrow">→</div>
+        </a>
+        
+        <a href="Nilesh-Jain.html" target="_blank" class="card">
+            <div class="card-content">
+                <h2 class="name">Nilesh Jain</h2>
+                <p class="designation">Co-founder & CEO</p>
+            </div>
+            <div class="arrow">→</div>
+        </a>
+        
+        <a href="Pallavi-Puri.html" target="_blank" class="card">
+            <div class="card-content">
+                <h2 class="name">Pallavi Puri</h2>
+                <p class="designation">Marketing Specialist</p>
+            </div>
+            <div class="arrow">→</div>
+        </a>
+        
+        <a href="Sidhika-Mirajkar.html" target="_blank" class="card">
+            <div class="card-content">
+                <h2 class="name">Sidhika Mirajkar</h2>
+                <p class="designation">Manager - Sales Support</p>
+            </div>
+            <div class="arrow">→</div>
+        </a>
+        
+        <a href="Uttam-Kaul.html" target="_blank" class="card">
+            <div class="card-content">
+                <h2 class="name">Uttam Kaul</h2>
+                <p class="designation">Major Accounts Manager</p>
+            </div>
+            <div class="arrow">→</div>
+        </a>
+        
+        <a href="Vijendra-Katiyar.html" target="_blank" class="card">
+            <div class="card-content">
+                <h2 class="name">Vijendra Katiyar</h2>
+                <p class="designation">Co-founder & CRO</p>
+            </div>
+            <div class="arrow">→</div>
+        </a>
+        
+        </div>
+    </main>
+    
+    <footer>
+        &copy; 2026 CleanStart. All rights reserved.
+    </footer>
+</body>
+</html>
+    
